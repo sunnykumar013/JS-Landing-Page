@@ -1,0 +1,9 @@
+.services {
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#contact {
+    /* flex-direction: column; */
+    overflow: hidden;
+}

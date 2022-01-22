@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+   
     <title>Landing Page With Light/Dark Mode</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css" />
   </head>
   <body>
     <main>
@@ -13,7 +16,7 @@
         <img src="./img/bg.png" alt="" class="shape" />
 
         <header>
-          <div class="container">
+          <div class="container ">
             <div class="logo">
               <img src="./img/logo.png" alt="Logo" />
               <h3>DryCart</h3><h3 style="color:green">.com</h3>
@@ -24,6 +27,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Clothes</a></li>
                 <li><a href="#">Curtains</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#" class="btn">Sign up</a></li>
               </ul>
             </div>
@@ -57,25 +61,130 @@
             </div>
 
             <div class="right">
-              <img src="./img/portfolio.png" alt="Person Image" class="person" />
+              <img src="./img/portfolio.png"  alt="Person Image" class="person" />
             </div>
           </div>
         </div>
 
+        <!-- -------------footer---------------------->
+        
+
+            <div class="services-container">
+              <div class="big-title">
+                <h1 class="h-primary center">Our Services</h1>
+              </div>
+              
+              <div class ="services" id="services">
+                
+                <div class="box">
+                  <img src="img/g1.jpg" alt="">
+                 
+                </div>
+
+                <div class="box">
+                  <img src="img/g2.jpg" alt="">
+               
+                </div>
+
+                <div class="box">
+                  <img src="img/g3.jpg" alt="">
+                  
+                </div>
+              </div>
+
+              <div class ="services">
+                <div class="box">
+                  <img src="img/g4.jpg" alt="">
+                  
+                </div>
+
+                <div class="box">
+                  <img src="img/g5.jpg" alt="">
+                
+                </div>
+
+                <div class="box">
+                  <img src="img/g6.jpg" alt="">
+                
+                </div>
+              </div>
+
+              
+
+            </div>
+
+            <section id="contact">
+              <div class="big-title">
+                <h1 class="h-primary center">Contact Us</h1>
+              </div>
+              <div id="contact-box">
+                <form action="">
+                  <div class="from-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                  </div>
+
+                  <div class="from-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                  </div>
+
+                  <div class="from-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your email">
+                  </div>
+
+                  <div class="from-group">
+                    <label for="message">Message:</label>
+                    <textarea name ="message" id="message" cols="30" rows="10"></textarea>
+                  </div>
+                  <div class="from-group">
+                    <input class="btn" type="button" value="Submit">
+                  </div>
+                  
+
+                </form>
+
+              </div>
+            </section>
+
+
+            <footer>
+              <div class="center">
+                Copyright &copy; www.drykart.com .All right reserved.
+
+              </div>
+
+
+            </footer>
+             
+        
+          
+
+        
+      
         <div class="bottom-area">
           <div class="container">
             <button class="toggle-btn">
               <i class="far fa-moon"></i>
               <i class="far fa-sun"></i>
-            </button>
-          </div>
+          </button>
         </div>
+
       </div>
+
+      
+ 
+
     </main>
+
+   
+
 
     <!-- JavaScript Files -->
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./lp.js"></script>
+    
   </body>
 </html>
